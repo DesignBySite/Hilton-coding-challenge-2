@@ -1,0 +1,17 @@
+//style reset
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.listing-of-rooms {
+    height: 150px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    grid-template-rows: repeat(2, max-content);
+    column-gap: 20px;
+    row-gap: 20px;
+    align-content: center;
+}

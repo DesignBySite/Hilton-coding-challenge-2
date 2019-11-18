@@ -1,0 +1,43 @@
+.room_container {
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  border: 3px solid lightgray;
+  border-radius: 5px; }
+
+.room_inputs {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  column-gap: 20px;
+  padding: 10px; }
+
+.room_title-area {
+  background-color: lightgray;
+  height: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 10px;
+  align-items: center; }
+
+.disabled {
+  border-color: lightsteelblue !important; }
+  .disabled .room_title-area {
+    background-color: lightsteelblue; }
+  .disabled .room_inputs {
+    background-color: lightsteelblue; }
+
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0; }
+
+.listing-of-rooms {
+  height: 150px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  grid-template-rows: repeat(2, max-content);
+  column-gap: 20px;
+  row-gap: 20px;
+  align-content: center; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
